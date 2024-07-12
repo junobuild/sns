@@ -35,10 +35,7 @@ dapp_canisters:
 Token:
   name: Juno Build
   symbol: JUNOBUILD
-
-  # SNS ledger transaction fee.
-  transaction_fee: 10_000 e8s
-
+  transaction_fee: 1_000_000 e8s
   logo: logo.png
 
 # Configures SNS proposal-related fields. These fields define the initial values
