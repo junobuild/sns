@@ -68,27 +68,27 @@ Distribution:
     - principal: tpv2w-kr3vj-a3mac-wivgj-5mwwr-egoxz-vxdpg-oqul5-3oygd-derik-jqe
       stake: 4_000_000 tokens
       memo: 0
-      dissolve_delay: 5 years
+      dissolve_delay: 2 years
       vesting_period: 5 years
     - principal: tpv2w-kr3vj-a3mac-wivgj-5mwwr-egoxz-vxdpg-oqul5-3oygd-derik-jqe
       stake: 4_000_000 tokens
       memo: 1
-      dissolve_delay: 3 years
+      dissolve_delay: 18 months
       vesting_period: 3 years
     - principal: tpv2w-kr3vj-a3mac-wivgj-5mwwr-egoxz-vxdpg-oqul5-3oygd-derik-jqe
       stake: 4_000_000 tokens
       memo: 2
-      dissolve_delay: 2 years
+      dissolve_delay: 1 year
       vesting_period: 2 years
     - principal: tpv2w-kr3vj-a3mac-wivgj-5mwwr-egoxz-vxdpg-oqul5-3oygd-derik-jqe
       stake: 4_000_000 tokens
       memo: 3
-      dissolve_delay: 18 months
+      dissolve_delay: 6 month
       vesting_period: 18 months
     - principal: tpv2w-kr3vj-a3mac-wivgj-5mwwr-egoxz-vxdpg-oqul5-3oygd-derik-jqe
       stake: 4_000_000 tokens
       memo: 4
-      dissolve_delay: 1 year
+      dissolve_delay: 0 year
       vesting_period: 1 year
 
   InitialBalances:
