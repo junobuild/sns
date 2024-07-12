@@ -26,19 +26,11 @@ fallback_controller_principals:
   - tpv2w-kr3vj-a3mac-wivgj-5mwwr-egoxz-vxdpg-oqul5-3oygd-derik-jqe
   - miso6-cu5ju-xcxwf-v2upq-mn32j-sn7lf-7mgiq-rh5ec-olmvw-a6z54-pqe
 
-# The list of dapp canister(s) that will be decentralized if the
-# decentralization swap succeeds. These are defined in the form of canister IDs,
-# for example, `bnz7o-iuaaa-aaaaa-qaaaa-cai`.  For a successful SNS launch,
-# these dapp canister(s) must be co-controlled by the NNS Root canister
-# (`r7inp-6aaaa-aaaaa-aaabq-cai`) at latest at the time when the NNS proposal to
-# create an SNS is adopted (usually this is required even earlier, e.g., to
-# convince NNS neurons to vote in favor of your proposal).
 dapp_canisters:
-  # For the actual SNS launch, you should replace this with one or more
-  # IDs of the canisters comprising your to-be-decentralized dapp.
-  #
-  # For testing, propose_sns.sh will fill this in automatically.
-  - YOUR_CANISTER_ID
+  # TODO: comment for local testing purpose
+  # - cokmz-oiaaa-aaaal-aby6q-cai
+  # - klbfr-lqaaa-aaaak-qbwsa-cai
+  # - fmkjf-bqaaa-aaaal-acpza-cai
 
 Token:
   name: Juno Build
