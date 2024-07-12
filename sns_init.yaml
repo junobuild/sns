@@ -22,15 +22,9 @@ NnsProposal:
     The SNS will be initialized with the following neurons:
     ...
 
-# If the SNS launch attempt fails, control over the dapp canister(s) is given to
-# these principals. In most use cases, this is chosen to be the original set of
-# controller(s) of the dapp. Must be a list of PrincipalIds.
 fallback_controller_principals:
-  # For the actual SNS launch, you should replace this with one or more
-  # principals of your intended fallback controllers.
-  #
-  # For testing, propose_sns.sh will fill this in automatically.
-  - YOUR_PRINCIPAL_ID
+  - tpv2w-kr3vj-a3mac-wivgj-5mwwr-egoxz-vxdpg-oqul5-3oygd-derik-jqe
+  - miso6-cu5ju-xcxwf-v2upq-mn32j-sn7lf-7mgiq-rh5ec-olmvw-a6z54-pqe
 
 # The list of dapp canister(s) that will be decentralized if the
 # decentralization swap succeeds. These are defined in the form of canister IDs,
