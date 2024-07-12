@@ -1,97 +1,13 @@
-# You should make a copy of this file, name it sns_init.yaml, and edit it to
-# suit your needs.
-#
-# All principal IDs should almost certainly be changed.
-#
-# In this file, 1 year is nominally defined to be 365.25 days.
-#
-# This gets passed to `sns propose`. See propose_sns.sh.
-#
-# This follows the second configuration file format developed for the `sns`
-# CLI. The first format will be supported for a time, but this format will
-# eventually become the standard format.
-# ------------------------------------------------------------------------------
-# UNITS
-#
-# This SNS configuration file version allows specifying the various
-# fields with units that make configuration easier. For instance,
-# in the previous version, all fields relating to token values
-# had to be specified in e8s (fractions of 10E-8 of a governance token).
-# In this version, similar fields can be specified in whole tokens,
-# tokens with decimals, or e8s. Below is more information on the type
-# of units that can be used.
-#
-# For fields that represent token values (such as `transaction_fee`
-# or `rejection_fee`), devs can specify decimal strings ending in
-# "tokens" (plural), decimal strings ending in "token" (singular),
-# or integer strings (base 10) ending in "e8s". In the case of
-# "tokens" strings, the maximum number of digits after the (optional)
-# decimal point is 8. The "_" character may be sprinkled throughout.
-# Whitespace around number is insignificant. E.g. " 42 tokens" is
-# equivalent to "42tokens".
-#
-# For fields that represent duration values (such as `initial_voting_period`
-# or `minimum_dissolve_delay`), devs can specify durations as a concatenation
-# of time spans. Where each time span is an integer number and a suffix.
-# Supported suffixes:
-#  - seconds, second, sec, s
-#  - minutes, minute, min, m
-#  - hours, hour, hr, h
-#  - days, day, d
-#  - weeks, week, w
-#  - months, month, M -- defined as 30.44 days
-#  - years, year, y -- defined as 365.25 days
-#
-# For example, "1w 2d 3h" gets parsed as
-#
-# 1 week + 2 days + 3 hours
-#    =
-# (1 * (7 * 24 * 60 * 60) + 2 * 24 * 60 * 60 + 3 * (60 * 60)) seconds
-#
-# For fields that represent percentage values (such as `bonus`), devs specify
-# the value as an integer with a trailing percent sign ('%'). For example,
-# `10%`.
-#
-# For fields that represent time of day (such as `start_time`), devs specify
-# the value as a string in form "hh::mm UTC". Where hh is hour, and mm is minute.
-# Only the UTC timezone is currently supported.
-# ------------------------------------------------------------------------------
-
-# Name of the SNS project. This may differ from the name of the associated
-# token. Must be a string of at most 255 bytes.
-name: Rock Out
-
-# Description of the SNS project.
-# Must be a string of at most 2,000 bytes.
+name: Juno Build
 description: >
-  A poem co-written with ChatGPT
-  
-  In a realm of code, a beacon forth surges,
-  a wondrous app on the Internet Computer emerges.
-  Born of inspiration divine,
-  This marvel of technology brilliantly shines.
-  
-  With each line of code, a world takes flight,
-  A symphony of bits, a chorus of bytes.
-  Built on chainkey cryptography, secure and true,
-  An app that transcends, all we once knew...
+  Juno is a blockchain-as-a-service platform that empowers developers to build decentralized apps efficiently. Similar to Web2 cloud service platforms but with significant improvements, it offers a comprehensive toolkit to scaffold secure and efficient projects running on the blockchain.
 
-# Path to the SNS Project logo on the local filesystem. The path is relative
-# to the configuration file's location, unless an absolute path is given.
-# Must have less than 341,334 bytes. The only supported format is PNG.
-# Consider that NNS dapp will render the image with a 1:1 aspect ratio and
-# cropped to a circle.
+  With Juno, developers can integrate features such as authentication, data and file storage, hosting, serverless functions, or on-chain analytics provided by smart contracts. This allows them to develop projects using familiar patterns while maintaining complete control over their work.
 logo: logo.png
+url: https://juno.build
 
-# URL that represents the SNS, usually a dapp controlled by the SNS project.
-# Must be a string from 10 to 512 bytes, and the domain must be HTTPS.
-url: https://mydapp.com
-
-# Metadata for the NNS proposal required to create the SNS. This data will be
-# shown only in the NNS proposal.
 NnsProposal:
-  # The title of the NNS proposal. Must be a string of 4 to 256 bytes.
-  title: "NNS Proposal to create an SNS named 'Rock Out'"
+  title: "NNS Proposal to create an SNS named 'Juno Build'"
 
   # The HTTPS address of a forum post with additional context required to evaluate the NNS
   # proposal.
@@ -130,23 +46,13 @@ dapp_canisters:
   # For testing, propose_sns.sh will fill this in automatically.
   - YOUR_CANISTER_ID
 
-# Configuration of SNS tokens in the SNS Ledger canister deployed as part
-# of the SNS.
 Token:
-  # The name of the token issued by the SNS ledger.
-  # Must be a string of 4 to 255 bytes without leading or trailing spaces.
-  name: Rock Out Token
-
-  # The symbol of the token issued by the SNS Ledger.
-  # Must be a string of 3 to 10 bytes without leading or trailing spaces.
-  symbol: ROT
+  name: Juno Build
+  symbol: JUNOBUILD
 
   # SNS ledger transaction fee.
   transaction_fee: 10_000 e8s
 
-  # Path to the SNS token logo on your local filesystem. The path is relative
-  # to the configuration file location, unless an absolute path is given.
-  # Must have less than 341,334 bytes. The only supported format is PNG.
   logo: logo.png
 
 # Configures SNS proposal-related fields. These fields define the initial values
