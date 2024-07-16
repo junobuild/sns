@@ -16,11 +16,8 @@ NnsProposal:
   # The protocol must be HTTPS, and the domain must be forum.dfinity.org.
   url: "https://forum.dfinity.org/thread-where-this-sns-is-discussed"
 
-  # The description of the proposal. Must be a string of 10 to 2,000 bytes.
-  summary: >
-    Proposal to create an SNS for the project XX.
-    The SNS will be initialized with the following neurons:
-    ...
+  # Left empty. Generated automatically on proposals.network
+  summary: ""
 
 fallback_controller_principals:
   - tpv2w-kr3vj-a3mac-wivgj-5mwwr-egoxz-vxdpg-oqul5-3oygd-derik-jqe
