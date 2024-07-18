@@ -130,7 +130,7 @@ Swap:
     - ZW # ZIMBABWE
 
   VestingSchedule:
-    events: 4
+    events: 5
     interval: 6 months
 
   # TODO: commented for local testing purpose
