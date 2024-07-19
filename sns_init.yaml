@@ -59,27 +59,27 @@ Voting:
 
 Distribution:
   Neurons:
-    - principal: tpv2w-kr3vj-a3mac-wivgj-5mwwr-egoxz-vxdpg-oqul5-3oygd-derik-jqe
+    - principal: k5nen-up7es-gfojt-3cbvu-ejeec-kjull-457tg-en2xi-ixjgm-vnxmv-tqe
       stake: 4_000_000 tokens
       memo: 0
       dissolve_delay: 2 years
       vesting_period: 5 years
-    - principal: tpv2w-kr3vj-a3mac-wivgj-5mwwr-egoxz-vxdpg-oqul5-3oygd-derik-jqe
+    - principal: k5nen-up7es-gfojt-3cbvu-ejeec-kjull-457tg-en2xi-ixjgm-vnxmv-tqe
       stake: 4_000_000 tokens
       memo: 1
       dissolve_delay: 18 months
       vesting_period: 3 years
-    - principal: tpv2w-kr3vj-a3mac-wivgj-5mwwr-egoxz-vxdpg-oqul5-3oygd-derik-jqe
+    - principal: k5nen-up7es-gfojt-3cbvu-ejeec-kjull-457tg-en2xi-ixjgm-vnxmv-tqe
       stake: 4_000_000 tokens
       memo: 2
       dissolve_delay: 1 year
       vesting_period: 2 years
-    - principal: tpv2w-kr3vj-a3mac-wivgj-5mwwr-egoxz-vxdpg-oqul5-3oygd-derik-jqe
+    - principal: k5nen-up7es-gfojt-3cbvu-ejeec-kjull-457tg-en2xi-ixjgm-vnxmv-tqe
       stake: 4_000_000 tokens
       memo: 3
       dissolve_delay: 9 months
       vesting_period: 18 months
-    - principal: tpv2w-kr3vj-a3mac-wivgj-5mwwr-egoxz-vxdpg-oqul5-3oygd-derik-jqe
+    - principal: k5nen-up7es-gfojt-3cbvu-ejeec-kjull-457tg-en2xi-ixjgm-vnxmv-tqe
       stake: 4_000_000 tokens
       memo: 4
       dissolve_delay: 6 months
