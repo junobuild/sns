@@ -100,8 +100,8 @@ Swap:
 
   confirmation_text: >
     I confirm my understanding of the responsibilities and risks
-    associated with participating in this token swap and that I'm
-    not resident of one of the sanctioned countries listed below.
+    associated with participating in this token swap and that I am
+    not a resident of any of the excluded countries.
 
   restricted_countries:
     - AF # AFGHANISTAN
