@@ -4,9 +4,9 @@ This repository contains the necessary files to initialize the SNS (Service Nerv
 
 ## Repository Contents
 
-- [sns_init.yaml]: This file contains the initial parameters required to propose the SNS for the Juno Build DAO. It is designed to be passed as an argument to the NNS proposal that triggers the SNS launch and will be submitted with the help of [proposals.network](https://proposals.network).
+- [sns_init.yaml](sns_init.yaml): This file contains the initial parameters required to propose the SNS for the Juno Build DAO. It is designed to be passed as an argument to the NNS proposal that triggers the SNS launch and will be submitted with the help of [proposals.network](https://proposals.network).
 
-- [logo.png]: The logo of the Juno Build DAO, to be used in conjunction with the SNS initialization.
+- [logo.png](logo.png): The logo of the Juno Build DAO, to be used in conjunction with the SNS initialization.
 
 ## Additional Resources
 
