@@ -1,7 +1,13 @@
-# Juno SNS
+# Juno Build SNS DAO
 
-Configuration and scripts related to the decentralization of Juno through a [Service Nervous Systems](https://internetcomputer.org/docs/current/developer-docs/daos/sns/overview/) (SNS).
+This repository contains the necessary files to initialize the SNS (Service Nervous System) for the Juno Build, including the SNS initialization YAML file and the official logo.
 
-## Initial Parameters
+## Repository Contents
 
-The documentation for the initial parameters finds place [here](https://internetcomputer.org/docs/current/developer-docs/daos/sns/tokenomics/preparation) and the template for the so called `SNS.yaml` file can be found in this [repo](https://github.com/dfinity/sns-testing/blob/main/example_sns_init.yaml).
+- [sns_init.yaml]: This file contains the initial parameters required to propose the SNS for the Juno Build DAO. It is designed to be passed as an argument to the NNS proposal that triggers the SNS launch and will be submitted with the help of [proposals.network](https://proposals.network).
+
+- [logo.png]: The logo of the Juno Build DAO, to be used in conjunction with the SNS initialization.
+
+## Additional Resources
+
+For more information on preparing your SNS, refer to the Internet Computer [SNS initial parameters](https://internetcomputer.org/docs/current/developer-docs/daos/sns/tokenomics/preparation) guide.
