@@ -20,11 +20,10 @@ fallback_controller_principals:
   - tpv2w-kr3vj-a3mac-wivgj-5mwwr-egoxz-vxdpg-oqul5-3oygd-derik-jqe
   - miso6-cu5ju-xcxwf-v2upq-mn32j-sn7lf-7mgiq-rh5ec-olmvw-a6z54-pqe
 
-# TODO: commented for local testing purpose
-# - cokmz-oiaaa-aaaal-aby6q-cai
-# - klbfr-lqaaa-aaaak-qbwsa-cai
-# - fmkjf-bqaaa-aaaal-acpza-cai
-dapp_canisters: []
+dapp_canisters:
+  - cokmz-oiaaa-aaaal-aby6q-cai
+  - klbfr-lqaaa-aaaak-qbwsa-cai
+  - fmkjf-bqaaa-aaaal-acpza-cai
 
 Token:
   name: Juno Build
