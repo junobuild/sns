@@ -37,7 +37,7 @@ Proposals:
   maximum_wait_for_quiet_deadline_extension: 1 day
 
 Neurons:
-  minimum_creation_stake: 100 tokens
+  minimum_creation_stake: 10 tokens
 
 Voting:
   minimum_dissolve_delay: 6 months
@@ -94,7 +94,7 @@ Swap:
 
   minimum_direct_participation_icp: 200_000 tokens
   maximum_direct_participation_icp: 350_000 tokens
-  minimum_participant_icp:     10 tokens
+  minimum_participant_icp:     1 token
   maximum_participant_icp: 200_000 tokens
 
   confirmation_text: >
