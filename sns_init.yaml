@@ -132,8 +132,7 @@ Swap:
     events: 5
     interval: 6 months
 
-  # TODO: commented for local testing purpose
-  # start_time: 1:00 UTC
+  start_time: 13:00 UTC
 
   duration: 14 days
 
