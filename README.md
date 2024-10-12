@@ -1,7 +1,7 @@
 # Juno Build SNS DAO
 
 > [!CAUTION]
-> The SNS DAO failed on Saturday Oct. 12 ([Swap data](https://3r4gx-wqaaa-aaaaq-aaaia-cai.icp0.io/v1/sns/root/mctoc-3qaaa-aaaaq-aadwa-cai/slow.json)).
+> The SNS DAO on the Internet Computer failed on Saturday, October 12, 2024 ([swap data](https://3r4gx-wqaaa-aaaaq-aaaia-cai.icp0.io/v1/sns/root/mctoc-3qaaa-aaaaq-aadwa-cai/slow.json)).
 
 This repository contains the necessary files to initialize the SNS (Service Nervous System) for the Juno Build, including the SNS initialization YAML file and the official logo.
 
